@@ -178,35 +178,34 @@ it has never seen before.
 
 **Prompt 1 Response:**
 ```
-**Generative AI (GenAI):** Generative AI is a branch of artificial intelligence focused on creating new content — such as text, images, audio, video, or code — rather than simply analyzing or classifying existing data.
+Generative AI (GenAI): Generative AI is a branch of artificial intelligence focused on creating new content — such as text, images, audio, video, or code — rather than simply analyzing or classifying existing data.
 
-**Historical background:** Neural networks date back to the 1950s, with the development of the perceptron. Early neural networks were limited by available computing power and data. In the 2010s, **deep learning** emerged, using neural networks with many stacked layers. Deep learning became powerful because its performance could improve significantly with more data, model capacity, and computing resources. This scalability helped make modern Generative AI possible.
+Historical background:** Neural networks date back to the 1950s, with the development of the perceptron. Early neural networks were limited by available computing power and data. In the 2010s, deep learning** emerged, using neural networks with many stacked layers. Deep learning became powerful because its performance could improve significantly with more data, model capacity, and computing resources. This scalability helped make modern Generative AI possible.
+Discriminative vs. generative models:** Discriminative models make decisions about existing input data — for example, classifying an email as spam or not spam**. Generative models learn patterns in data and use those patterns to produce new data — for example, **writing a new email in a particular style.
 
-**Discriminative vs. generative models:** Discriminative models make decisions about existing input data — for example, classifying an email as **spam or not spam**. Generative models learn patterns in data and use those patterns to produce new data — for example, **writing a new email in a particular style**.
+Analogy: Think of a discriminative model as an art critic who can identify whether a painting belongs to a particular style. A generative model is like an apprentice artist** who has studied many paintings and can create a new painting based on the patterns and styles learned.
 
-**Analogy:** Think of a discriminative model as an **art critic** who can identify whether a painting belongs to a particular style. A generative model is like an **apprentice artist** who has studied many paintings and can create a new painting based on the patterns and styles learned.
+Foundation models: Modern GenAI systems are often built using **foundation models. These models are trained on massive and diverse datasets and can then be adapted or used for many different tasks without building a separate model from scratch for every task.
 
-**Foundation models:** Modern GenAI systems are often built using **foundation models**. These models are trained on massive and diverse datasets and can then be adapted or used for many different tasks without building a separate model from scratch for every task.
-
-**In simple words:** Generative AI learns from existing data and uses what it has learned to **create new content**. Deep learning, large datasets, powerful hardware, and modern architectures such as Transformers played a major role in the rise of modern Generative AI.
+In simple words: Generative AI learns from existing data and uses what it has learned to create new content. Deep learning, large datasets, powerful hardware, and modern architectures such as Transformers played a major role in the rise of modern Generative AI.
 
 ```
 
 **Prompt 2 Response:**
 ```
-**Generative AI model architecture:** Generative AI models are designed to learn patterns from large amounts of data and generate new content. Common architectures include **Transformers, GANs (Generative Adversarial Networks), and VAEs (Variational Autoencoders)**. Among these, Transformers are widely used for modern text and multimodal Generative AI systems.
+Generative AI model architecture: Generative AI models are designed to learn patterns from large amounts of data and generate new content. Common architectures include **Transformers, GANs (Generative Adversarial Networks), and VAEs (Variational Autoencoders)**. Among these, Transformers are widely used for modern text and multimodal Generative AI systems.
 
-**Transformers:** A Transformer is a neural network architecture introduced in 2017. It mainly consists of an **input embedding layer, positional encoding, self-attention mechanism, feed-forward neural networks, and output layer**. The input text is first divided into tokens. These tokens are converted into numerical vectors called embeddings. Positional information is added so that the model can understand the order of the words. The self-attention mechanism then determines how important each word is in relation to the other words.
+Transformers: A Transformer is a neural network architecture introduced in 2017. It mainly consists of an **input embedding layer, positional encoding, self-attention mechanism, feed-forward neural networks, and output layer**. The input text is first divided into tokens. These tokens are converted into numerical vectors called embeddings. Positional information is added so that the model can understand the order of the words. The self-attention mechanism then determines how important each word is in relation to the other words.
 
-**Self-attention:** Self-attention allows the Transformer to look at different words in a sentence at the same time and determine their relationships. Unlike older sequential models such as RNNs, a Transformer does not have to process every word strictly one after another during training. This allows it to process many tokens in parallel and makes training more efficient on modern hardware.
+Self-attention: Self-attention allows the Transformer to look at different words in a sentence at the same time and determine their relationships. Unlike older sequential models such as RNNs, a Transformer does not have to process every word strictly one after another during training. This allows it to process many tokens in parallel and makes training more efficient on modern hardware.
 
-**Simple example:** Consider the sentence **“The dog chased the cat because it was hungry.”** The word **“it”** could refer to the dog or the cat. Through self-attention, the Transformer examines the relationships between **“it,” “dog,” “cat,” “hungry,”** and other words to determine which words are most relevant to understanding the sentence.
+Simple example: Consider the sentence **“The dog chased the cat because it was hungry.”** The word **“it”** could refer to the dog or the cat. Through self-attention, the Transformer examines the relationships between **“it,” “dog,” “cat,” “hungry,”** and other words to determine which words are most relevant to understanding the sentence.
 
-**GANs:** GANs consist of two neural networks: a **Generator** and a **Discriminator**. The Generator creates new data, while the Discriminator tries to distinguish between real and generated data. They compete during training, helping the Generator produce increasingly realistic content. GANs are commonly associated with image generation.
+GANs: GANs consist of two neural networks: a Generator and a Discriminator. The Generator creates new data, while the Discriminator tries to distinguish between real and generated data. They compete during training, helping the Generator produce increasingly realistic content. GANs are commonly associated with image generation.
 
-**VAEs:** VAEs consist mainly of an **Encoder** and a **Decoder**. The Encoder converts input data into a compact representation called a latent space, and the Decoder uses this representation to reconstruct or generate new data. VAEs are useful for learning meaningful representations and generating variations of existing data.
+VAEs: VAEs consist mainly of an **Encoder** and a **Decoder**. The Encoder converts input data into a compact representation called a latent space, and the Decoder uses this representation to reconstruct or generate new data. VAEs are useful for learning meaningful representations and generating variations of existing data.
 
-**Comparison:** Transformers are especially suitable for sequences such as text because self-attention captures relationships between tokens and allows efficient parallel processing. GANs use a Generator–Discriminator competition and are commonly used for realistic data generation, especially images. VAEs use an Encoder–Decoder structure and a latent representation to generate new variations of data.
+Comparison: Transformers are especially suitable for sequences such as text because self-attention captures relationships between tokens and allows efficient parallel processing. GANs use a Generator–Discriminator competition and are commonly used for realistic data generation, especially images. VAEs use an Encoder–Decoder structure and a latent representation to generate new variations of data.
 
 | Model           | Main Architecture               | Main Idea                                           | Common Use                      |
 | --------------- | ------------------------------- | --------------------------------------------------- | ------------------------------- |
@@ -214,27 +213,27 @@ it has never seen before.
 | **GAN**         | Generator + Discriminator       | Two networks compete to improve generation          | Image generation                |
 | **VAE**         | Encoder + Decoder               | Learn latent representation and generate variations | Images, representation learning |
 
-**In simple words:** A **Transformer** understands relationships between words using self-attention, a **GAN** learns through competition between a Generator and Discriminator, and a **VAE** learns a compressed latent representation and uses it to generate new data.
+In simple words:A Transformer** understands relationships between words using self-attention, a GAN learns through competition between a Generator and Discriminator, and a VAE learns a compressed latent representation and uses it to generate new data.
 
 ```
 
 **Prompt 3 Response:**
 ```
-**Generative AI applications:** Generative AI architecture allows machines to learn patterns from existing data and create new content. Different architectures such as **GANs, VAEs, and Transformers** are used for different applications depending on the type of data and task.
+Generative AI applications: Generative AI architecture allows machines to learn patterns from existing data and create new content. Different architectures such as GANs, VAEs, and Transformers are used for different applications depending on the type of data and task.
 
-**1. Image generation:** Generative AI can create realistic images from text prompts or generate new variations of existing images. **GANs** use a Generator and Discriminator to create increasingly realistic images, while **VAEs** can learn a latent representation of images and generate new variations. For example, AI can generate product designs, artwork, or realistic faces.
+1. Image generation: Generative AI can create realistic images from text prompts or generate new variations of existing images. GANs use a Generator and Discriminator to create increasingly realistic images, while VAEs can learn a latent representation of images and generate new variations. For example, AI can generate product designs, artwork, or realistic faces.
 
-**2. Video generation:** Generative AI can create or modify video content, such as generating scenes, animations, and video effects. **Transformers** can model relationships between video frames and their surrounding context, while other generative architectures can help generate visual content. For example, a user can provide a text description and an AI system can generate a short video based on it.
+2. Video generation: Generative AI can create or modify video content, such as generating scenes, animations, and video effects. Transformers can model relationships between video frames and their surrounding context, while other generative architectures can help generate visual content. For example, a user can provide a text description and an AI system can generate a short video based on it.
 
-**3. Audio and speech generation:** Generative AI can produce human-like speech, music, sound effects, and voice conversions. **Transformers** can learn patterns in sequences of audio or speech and generate new sequences. For example, text-to-speech systems can convert written text into natural-sounding speech.
+3. Audio and speech generation: Generative AI can produce human-like speech, music, sound effects, and voice conversions. Transformers can learn patterns in sequences of audio or speech and generate new sequences. For example, text-to-speech systems can convert written text into natural-sounding speech.
 
-**4. Code generation:** Generative AI can generate computer programs, complete code, explain code, and identify possible errors. **Transformers** are widely used because programming languages are sequential and contain relationships between different parts of the code. For example, a developer can enter a prompt such as “Create a Python program to calculate factorial,” and the model can generate the required code.
+4. Code generation: Generative AI can generate computer programs, complete code, explain code, and identify possible errors. Transformers are widely used because programming languages are sequential and contain relationships between different parts of the code. For example, a developer can enter a prompt such as “Create a Python program to calculate factorial,” and the model can generate the required code.
 
-**5. Conversational AI:** Chatbots and virtual assistants can understand user questions and generate natural-language responses. **Transformer-based Large Language Models (LLMs)** are commonly used for this application. Self-attention allows the model to consider relationships between words and understand the context of a conversation. Examples include customer-support chatbots, virtual assistants, and educational assistants.
+5. Conversational AI: Chatbots and virtual assistants can understand user questions and generate natural-language responses. Transformer-based Large Language Models (LLMs) are commonly used for this application. Self-attention allows the model to consider relationships between words and understand the context of a conversation. Examples include customer-support chatbots, virtual assistants, and educational assistants.
 
-**6. Text generation:** Generative AI can create emails, summaries, articles, stories, and other written content. **Transformers** are particularly effective because they can learn relationships between words and generate text one token at a time based on the given context.
+6. Text generation: Generative AI can create emails, summaries, articles, stories, and other written content. **Transformers** are particularly effective because they can learn relationships between words and generate text one token at a time based on the given context.
 
-**Architecture and application relationship:** The choice of architecture depends on the type of content being generated. **GANs** are well known for realistic image generation, **VAEs** are useful for learning compact representations and generating variations, and **Transformers** are widely used for text, code, conversational AI, and increasingly multimodal content such as audio, images, and video.
+Architecture and application relationship: The choice of architecture depends on the type of content being generated. **GANs** are well known for realistic image generation, **VAEs** are useful for learning compact representations and generating variations, and **Transformers** are widely used for text, code, conversational AI, and increasingly multimodal content such as audio, images, and video.
 
 | Application           | Example                         | Common Architecture             | How it works                                     |
 | --------------------- | ------------------------------- | ------------------------------- | ------------------------------------------------ |
@@ -251,25 +250,25 @@ it has never seen before.
 
 **Prompt 4 Response:**
 ```
-**Scaling in Large Language Models (LLMs):** Scaling means increasing the **model size, training data, and computing resources** used to train an AI model. Research has shown that language-model performance generally improves as these factors increase, following predictable scaling trends over a wide range.
+Scaling in Large Language Models (LLMs): Scaling means increasing the **model size, training data, and computing resources** used to train an AI model. Research has shown that language-model performance generally improves as these factors increase, following predictable scaling trends over a wide range.
 
-**1. Increasing model size:** Model size refers to the number of **parameters** in a neural network. A larger model can learn more complex relationships and patterns in language. For example, **GPT-3 has 175 billion parameters**, which helped it perform many language tasks using few-shot prompting. Larger models, however, require more memory, computation, and time for training and deployment.
+1. Increasing model size: Model size refers to the number of **parameters** in a neural network. A larger model can learn more complex relationships and patterns in language. For example, **GPT-3 has 175 billion parameters**, which helped it perform many language tasks using few-shot prompting. Larger models, however, require more memory, computation, and time for training and deployment.
 
-**2. Increasing training data:** More high-quality training data gives the model more examples of language, facts, code, and different writing styles. This can improve its ability to generalize to new tasks. However, simply adding more data is not always enough; the **quality and diversity of the data** are also important. Research on compute-optimal training found that model size and the number of training tokens should be balanced rather than increasing only one of them.
+2. Increasing training data: More high-quality training data gives the model more examples of language, facts, code, and different writing styles. This can improve its ability to generalize to new tasks. However, simply adding more data is not always enough; the **quality and diversity of the data** are also important. Research on compute-optimal training found that model size and the number of training tokens should be balanced rather than increasing only one of them.
 
-**3. Increasing compute resources:** Training larger models with more data requires powerful hardware such as **GPUs and large distributed computing systems**. More compute allows more mathematical operations to be performed during training. Large-scale training can therefore produce more capable models, but it also increases infrastructure requirements and cost. OpenAI reported that GPT-4 training used AI-optimized supercomputing infrastructure and emphasized predictable scaling of training performance.
+3. Increasing compute resources:Training larger models with more data requires powerful hardware such as **GPUs and large distributed computing systems**. More compute allows more mathematical operations to be performed during training. Large-scale training can therefore produce more capable models, but it also increases infrastructure requirements and cost. OpenAI reported that GPT-4 training used AI-optimized supercomputing infrastructure and emphasized predictable scaling of training performance.
 
-**GPT-3 vs. GPT-4:** GPT-3, released in 2020, was a 175-billion-parameter autoregressive language model and demonstrated that scaling could substantially improve few-shot performance. GPT-4, released in 2023, represented a further scaling milestone. OpenAI described GPT-4 as a large multimodal model and reported stronger performance on a range of professional and academic benchmarks compared with earlier models. OpenAI did **not publicly disclose GPT-4's parameter count**, so it is incorrect to assume a specific GPT-4 parameter number from public information.
+GPT-3 vs. GPT-4:GPT-3, released in 2020, was a 175-billion-parameter autoregressive language model and demonstrated that scaling could substantially improve few-shot performance. GPT-4, released in 2023, represented a further scaling milestone. OpenAI described GPT-4 as a large multimodal model and reported stronger performance on a range of professional and academic benchmarks compared with earlier models. OpenAI did **not publicly disclose GPT-4's parameter count**, so it is incorrect to assume a specific GPT-4 parameter number from public information.
 
-**4. Challenge — Overfitting:** If a model is trained too heavily on limited or repetitive data, it can memorize training examples instead of learning patterns that generalize well. Scaling therefore requires balancing **model size and data quantity/quality**. Research on scaling laws and compute-optimal training shows that the relationship between model size, data, and compute must be carefully managed.
+4. Challenge — Overfitting: If a model is trained too heavily on limited or repetitive data, it can memorize training examples instead of learning patterns that generalize well. Scaling therefore requires balancing **model size and data quantity/quality**. Research on scaling laws and compute-optimal training shows that the relationship between model size, data, and compute must be carefully managed.
 
-**5. Challenge — High cost:** Larger models require more GPUs, memory, electricity, storage, and training time. The cost does not end after training because serving a large model to users also requires substantial computing resources.
+5. Challenge — High cost: Larger models require more GPUs, memory, electricity, storage, and training time. The cost does not end after training because serving a large model to users also requires substantial computing resources.
 
-**6. Challenge — Distributed training:** Very large models may not fit on a single GPU. Training is therefore distributed across many GPUs and machines using techniques such as **data parallelism and model parallelism**. This introduces challenges such as communication between machines, synchronization, hardware failures, and efficient distribution of workloads. Large-scale parallel training has been an important factor in enabling the growth of modern AI systems.
+6. Challenge — Distributed training: Very large models may not fit on a single GPU. Training is therefore distributed across many GPUs and machines using techniques such as **data parallelism and model parallelism**. This introduces challenges such as communication between machines, synchronization, hardware failures, and efficient distribution of workloads. Large-scale parallel training has been an important factor in enabling the growth of modern AI systems.
 
-**7. Important lesson from scaling:** Bigger is not automatically better. Efficient scaling requires a good balance between **model size, training data, compute, and data quality**. For example, the Chinchilla study found that a smaller 70-billion-parameter model trained on substantially more data could outperform some much larger models, demonstrating the importance of compute-efficient scaling.
+7. Important lesson from scaling: Bigger is not automatically better. Efficient scaling requires a good balance between **model size, training data, compute, and data quality**. For example, the Chinchilla study found that a smaller 70-billion-parameter model trained on substantially more data could outperform some much larger models, demonstrating the importance of compute-efficient scaling.
 
-**In simple words:** Scaling an LLM is like expanding a student's learning resources. A **larger brain (model)**, **more textbooks (data)**, and **more study time/resources (compute)** can improve learning. But simply giving the student more books or more time is not enough — the resources must be high quality and properly balanced.
+In simple words: Scaling an LLM is like expanding a student's learning resources. A **larger brain (model)**, **more textbooks (data)**, and **more study time/resources (compute)** can improve learning. But simply giving the student more books or more time is not enough — the resources must be high quality and properly balanced.
 
 **Summary:** The rise from models such as GPT-3 to GPT-4 illustrates how increasing scale, training methods, data, and compute can produce more capable AI systems. At the same time, scaling creates major challenges involving **cost, data quality, overfitting, memory, and distributed training**.
 
@@ -277,17 +276,17 @@ it has never seen before.
 
 **Prompt 5 Response:**
 ```
-**Large Language Model (LLM):** A Large Language Model is an AI model trained on a very large amount of text data to understand and generate human-like language. LLMs can perform tasks such as answering questions, summarizing text, translating languages, writing code, and generating conversations. Modern LLMs are mainly based on the **Transformer architecture**.
+Large Language Model (LLM): A Large Language Model is an AI model trained on a very large amount of text data to understand and generate human-like language. LLMs can perform tasks such as answering questions, summarizing text, translating languages, writing code, and generating conversations. Modern LLMs are mainly based on the **Transformer architecture**.
 
-**1. Data collection:** The first step is to collect a large and diverse dataset. It can contain books, websites, articles, documents, code, and other text sources. The data is cleaned to remove unwanted, duplicated, or low-quality content.
+1. Data collection: The first step is to collect a large and diverse dataset. It can contain books, websites, articles, documents, code, and other text sources. The data is cleaned to remove unwanted, duplicated, or low-quality content.
 
-**2. Tokenization:** The collected text is divided into smaller units called **tokens**. A token may be a complete word, part of a word, punctuation mark, or other text unit. For example, the sentence **“AI is powerful”** is converted into tokens that the model can represent numerically. These tokens are then converted into numerical IDs that can be processed by the neural network.
+2. Tokenization: The collected text is divided into smaller units called **tokens**. A token may be a complete word, part of a word, punctuation mark, or other text unit. For example, the sentence **“AI is powerful”** is converted into tokens that the model can represent numerically. These tokens are then converted into numerical IDs that can be processed by the neural network.
 
-**3. Transformer architecture:** The token IDs are converted into numerical vectors called **embeddings**. Positional information is added so that the model can understand the order of tokens. The Transformer then processes these representations through layers containing **self-attention and feed-forward neural networks**.
+3. Transformer architecture: The token IDs are converted into numerical vectors called **embeddings**. Positional information is added so that the model can understand the order of tokens. The Transformer then processes these representations through layers containing **self-attention and feed-forward neural networks**.
 
-**4. Self-attention:** Self-attention allows the model to determine how strongly different tokens are related to one another. For example, in the sentence **“The student dropped the book because it was heavy,”** the model can use attention to understand that **“it”** is related to **“book.”** This helps the model understand context and relationships within the input.
+4. Self-attention: Self-attention allows the model to determine how strongly different tokens are related to one another. For example, in the sentence **“The student dropped the book because it was heavy,”** the model can use attention to understand that **“it”** is related to **“book.”** This helps the model understand context and relationships within the input.
 
-**5. Pre-training:** During pre-training, the model learns general language patterns from a huge amount of text. In a typical autoregressive LLM, the model is trained to **predict the next token** based on the previous tokens. For example:
+5. Pre-training: During pre-training, the model learns general language patterns from a huge amount of text. In a typical autoregressive LLM, the model is trained to **predict the next token** based on the previous tokens. For example:
 
 **Input:** “The sun rises in the”
 **Expected next token:** “east”
